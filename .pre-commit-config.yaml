@@ -1,5 +1,11 @@
 repos:
   - repo: https://github.com/qoomon/git-conventional-commits
-    rev: v2.6.3
+    rev: v2.6.7
     hooks:
       - id: conventional-commits
+
+  - repo: https://github.com/pre-commit/mirrors-eslint
+    rev: v9.17.0
+    hooks:
+      - id: eslint
+
